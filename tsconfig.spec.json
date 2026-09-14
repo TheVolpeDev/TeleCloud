@@ -3,12 +3,12 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "types": []
+    "types": [
+      "vitest/globals"
+    ]
   },
   "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
+    "src/**/*.d.ts",
     "src/**/*.spec.ts"
   ]
 }
